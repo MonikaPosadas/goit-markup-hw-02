@@ -1,5 +1,12 @@
-:root {}
-
+:root {
+  font-style: normal;
+  color: #212121;
+  background-color: #ffffff;
+}
+.buttons:hover {color: #ffffff;
+background-color: #2196f3;}
+.link-header :focus {color: #2196f3;}
+.link-footer :focus {color:rgba(255, 255, 255, 0.6)}
 .main-navigation {
   font-family: "Roboto";
   font-style: normal;
@@ -10,14 +17,14 @@
   color: #212121;
 }
 .logo {
-  font-family: 'Raleway';
+font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 1;
 letter-spacing: 0.03em;
 }
-.span {
+span {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
